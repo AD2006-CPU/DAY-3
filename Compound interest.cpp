@@ -9,7 +9,7 @@ int main()
     scanf("%f", &rate);
     printf("Enter Time: ");
     scanf("%f", &time);
-    ci = principle * (pow((1 + rate / 100 ),time));
+    ci = principle * (pow((1 + rate / 100 )n*time));
     printf("Compound Interest = %f\n", ci);
     return 0;
 }
